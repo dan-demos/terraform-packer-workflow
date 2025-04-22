@@ -6,6 +6,6 @@ resource "aws_instance" "app_server" {
   ami           = "ami-039af3bfc52681cd5"
   instance_type = "t2.micro"
   tags = {
-    Name = "Learn-HCP-Packer"
+    Name = "ubuntu-packer-vm"
   }
 }
