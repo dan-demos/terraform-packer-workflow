@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-039af3bfc52681cd5"
+  ami           = "ami-02379174b2307d56b"
   instance_type = "t2.micro"
   tags = {
     Name = "ubuntu-packer-vm"
